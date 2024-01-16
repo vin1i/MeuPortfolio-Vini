@@ -1,3 +1,13 @@
+Portfólio criado no intuito de mostrar sobre mim e o que posso fazer, criado usando React, esse projeto foi feito por mim para que os visitantes saibam mais sobre mim e minhas habilidades.
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
