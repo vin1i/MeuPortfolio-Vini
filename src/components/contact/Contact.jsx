@@ -21,7 +21,7 @@ const Contact = () => {
         <section className="contact section" id="contact">
             <h2 className="section__title">Quer trabalhar comigo <span className="dot__contact">?</span></h2>
                 <span className="section__subtitle">
-               Entra em contato
+               Entre em contato
                  </span>
                  <div className="contact__container container grid">
                     <div className="container__content">
