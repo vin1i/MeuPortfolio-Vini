@@ -53,7 +53,7 @@ const Qualifications = () => {
                             <span className="qualification__subtitle"> Instituição - Uninassau</span>
                             <div className="qualification__calender">
                                 <i className="uil uil-calendar-alt"></i>
-                                2023 - Present
+                                2023 - Presente
                             </div>
                         </div>
 
@@ -76,7 +76,7 @@ const Qualifications = () => {
                             <span className="qualification__subtitle"> Instituição - Uninassau</span>
                             <div className="qualification__calender">
                                 <i className="uil uil-calendar-alt"></i>
-                                2023 - Present
+                                2023 - Presente
                             </div>
                         </div>
                     </div>
