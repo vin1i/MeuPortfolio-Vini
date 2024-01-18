@@ -50,7 +50,7 @@ const Qualifications = () => {
                     <div className="qualification__data">
                         <div>
                             <h3 className="qualification__title">Análise e Desenvolvimento de Sistemas</h3>
-                            <span className="qualification__subtitle"> Instituto - Uninassau</span>
+                            <span className="qualification__subtitle"> Instituição - Uninassau</span>
                             <div className="qualification__calender">
                                 <i className="uil uil-calendar-alt"></i>
                                 2023 - Present
@@ -73,7 +73,7 @@ const Qualifications = () => {
 
                         <div>
                             <h3 className="qualification__title">Web Development</h3>
-                            <span className="qualification__subtitle"> Instituto - Uninassau</span>
+                            <span className="qualification__subtitle"> Instituição - Uninassau</span>
                             <div className="qualification__calender">
                                 <i className="uil uil-calendar-alt"></i>
                                 2023 - Present
