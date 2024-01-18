@@ -19,7 +19,7 @@ const Contact = () => {
   
     return (
         <section className="contact section" id="contact">
-            <h2 className="section__title">Quer trabalhar comigo ?<span className="dot__contact">.</span></h2>
+            <h2 className="section__title">Quer trabalhar comigo <span className="dot__contact">?</span></h2>
                 <span className="section__subtitle">
                Entra em contato
                  </span>
