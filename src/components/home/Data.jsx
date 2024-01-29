@@ -9,7 +9,7 @@ return(
   
                 </h1>
                 <h3 className="home__subtitle">FrontEnd Developer</h3>
-                <p className="home__description">Eu sou Desenvolvedor Web em formação, apaixonado e dedicado aos meus estudos e trabalho. </p>
+                <p className="home__description">Eu sou Desenvolvedor Frontend em formação, apaixonado e dedicado aos meus estudos e trabalho. </p>
 
                 <a href="#contact" className="button button--flex">
                     Entre em contato
