@@ -12,7 +12,7 @@ return(
     <section className="services section" id="services">
          <h2 className="section__title">Serviços<span className="dot__services">.</span></h2>
                 <span className="section__subtitle">
-                O que posso ofereçer, por enquanto </span>
+                O que posso oferecer </span>
         <div className="services__container container grid">
             <div className="services__content">
 
