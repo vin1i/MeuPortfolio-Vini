@@ -8,7 +8,7 @@ return(
     <h1 className="home__title">Hey, eu sou o Vinicius👋🏻
   
                 </h1>
-                <h3 className="home__subtitle">FrontEnd Developer</h3>
+                <h3 className="home__subtitle">Frontend Developer</h3>
                 <p className="home__description">Eu sou Desenvolvedor Frontend em formação, apaixonado e dedicado aos meus estudos e trabalho. </p>
 
                 <a href="#contact" className="button button--flex">
