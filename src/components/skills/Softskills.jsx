@@ -11,7 +11,7 @@ const Softskills = () => {
                 <div className="skills__group">
 
                     <div className="skills__data">
-                    <i class='bx bx-check-circle'></i>
+                    <i className='bx bx-check-circle'></i>
 
                     <div>
                         <h3 className="skills__name">Comunicação Efetiva</h3>
@@ -21,7 +21,7 @@ const Softskills = () => {
 
                     
                     <div className="skills__data">
-                    <i class='bx bx-check-circle'></i>
+                    <i className='bx bx-check-circle'></i>
 
                     <div>
                         <h3 className="skills__name">Compromisso</h3>
@@ -31,7 +31,7 @@ const Softskills = () => {
 
                     
                     <div className="skills__data">
-                    <i class='bx bx-check-circle'></i>
+                    <i className='bx bx-check-circle'></i>
 
                     <div>
                         <h3 className="skills__name">Colaboração</h3>

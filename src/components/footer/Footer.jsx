@@ -23,21 +23,21 @@ const Footer = () => {
                 </ul>
 
                 <div className="footer__social">
-                <a href="https://www.linkedin.com/in/mvini21/" className="home__social-icon" target="_blank">
-            <i class="uil uil-linkedin-alt"></i>
+                <a href="https://www.linkedin.com/in/mvini21/" className="home__social-icon" target="_blank" rel="noreferrer">
+            <i className="uil uil-linkedin-alt"></i>
 
             </a>
 
-            <a href="https://github.com/vin1i" className="home__social-icon" target= "_blank">
-            <i class="uil uil-github-alt"></i>
+            <a href="https://github.com/vin1i" className="home__social-icon" target= "_blank" rel="noreferrer">
+            <i className="uil uil-github-alt"></i>
                 
             </a>
 
-            <a href="mailto:marcosvinijobs342@outlook.com" className="home__social-icon" target="_blank">
-            <i class="uil uil-envelope-alt"></i>
+            <a href="mailto:marcosvinijobs342@outlook.com" className="home__social-icon" target="_blank" rel="noreferrer">
+            <i className="uil uil-envelope-alt"></i>
                             
             </a>
-
+            
                 </div>
                 <span className="footer__copy" > 
                 &#169;2024 All Rights Reserved. Made with 💙 by Vini Matos

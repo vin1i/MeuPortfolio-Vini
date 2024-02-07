@@ -1,5 +1,5 @@
 .skills__container {
-    grid-template-columns: repeat(3, 350px);
+    grid-template-columns: repeat(2, 350px);
     column-gap: 3rem;
     justify-content: center;
 }
@@ -37,13 +37,6 @@
     row-gap: 1rem;
 }
 
-/*-----------------------------Style para SQL de Backend, para se alinhar melhor dentro do BOX----------------------------------------------------*/
-.skills__sql{
-    display: grid;
-    align-items: flex-start;
-    margin-bottom: 1.1rem;
-}
-/*----------------------------------------------------------------------------------------------------------------------------------------------*/
 
 .skills__data{
     display: flex;

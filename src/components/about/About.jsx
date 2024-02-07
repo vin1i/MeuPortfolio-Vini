@@ -23,11 +23,11 @@ const About = () => {
 
                         <p className="about__description"> 
                        Sou Desenvolvedor Frontend dedicado no início da carreira, especializado na criação de páginas web e implementação de interfaces atraentes. 
-                        Busco oportunidades para aprimorar minhas habilidades, contribuindo para projetos inovadores e desafiadores. E eu amo o que eu faço.💙
+                        Busco oportunidades para aprimorar minhas habilidades no frontend e backend, contribuindo para projetos inovadores e desafiadores. Amo o que eu faço.💙
                         </p>
                         <a download="" href={CV} className="button button--flex">Download CV
                         <svg
-                class="button__icon"
+                className="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"

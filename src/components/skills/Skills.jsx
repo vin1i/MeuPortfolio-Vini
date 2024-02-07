@@ -2,7 +2,7 @@ import React from "react";
 import './skills.css';
 import Frontend from "./Frontend";
 import Backend from "./Backend";
-import Softskills from "./Softskills";
+//import Softskills from "./Softskills";
 
 const Skills = () => {
 
@@ -18,7 +18,7 @@ const Skills = () => {
 
                 <Frontend/>
                 <Backend/>
-                <Softskills/>
+                {/* <Softskills/>*/}
                 
             </div>
         </section>

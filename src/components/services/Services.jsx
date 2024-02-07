@@ -12,7 +12,7 @@ return(
     <section className="services section" id="services">
          <h2 className="section__title">Serviços<span className="dot__services">.</span></h2>
                 <span className="section__subtitle">
-                O que posso oferecer </span>
+                O que ofereço </span>
         <div className="services__container container grid">
             <div className="services__content">
 
@@ -32,21 +32,21 @@ return(
                         <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
                         <h3 className="services__modal-title">Web Developer</h3>
-                        <p className="services__modal-description">1 ano atuando como desenvolvedor. Fornecendo serviços freelancers e construindo projetos pessoais.</p>
+                        <p className="services__modal-description">Atuo como desenvolvedor, fornecendo serviços freelancers e construindo projetos pessoais.</p>
 
                         <ul className="services__modal-services grid">
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
                                 <p className="services__modal-info">
-                                Eu desenvolvo interfaces de usuários.
+                                Desenvolvimento Frontend
                                 </p>
                             </li>
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
                                 <p className="services__modal-info">
-                                Desenvolvimentos de páginas Web responsivas.
+                                Desenvolvimentos Backend
 
                                 </p>
                             </li>
@@ -54,7 +54,15 @@ return(
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
                                 <p className="services__modal-info">
-                                     Websites Dinâmicos 
+                                Integrações de APIS
+
+                                </p>
+                            </li>
+
+                            <li className="services__modal-service">
+                                <i className="uil uil-check-circle services__modal-icon"></i>
+                                <p className="services__modal-info">
+                                    Websites Dinâmicos e responsivos
 
                                 </p>
                             </li>
