@@ -14,7 +14,7 @@ const Social = () => {
                 
             </a>
 
-            <a href="mailto:marcosvinijobs342@outlook.com" className="home__social-icon" target="_blank" rel="noreferrer">
+            <a href="mailto:marcosvini342@outlook.com" className="home__social-icon" target="_blank" rel="noreferrer">
             <i className="uil uil-envelope-alt"></i>
                             
             </a>
