@@ -12,15 +12,15 @@ const Backend = () => {
                     <i className='bx bx-check-circle'></i>
 
 
-                    <div>
-                        <h3 className="skills__name">C#</h3>
+                    {/* <div>
+                        <h3 className="skills__name">C#</h3>  //ESTUDANDO ESSA TECNOLOGIA
 
                     </div>
                     </div>
 
                     
                     <div className="skills__data">
-                    <i className='bx bx-check-circle'></i>
+                    <i className='bx bx-check-circle'></i> */}
 
                     <div>
                         <h3 className="skills__name">Node.js</h3>
@@ -30,13 +30,13 @@ const Backend = () => {
 
                     
                     <div className="skills__data">
-                    <i className='bx bx-check-circle'></i>
+                <i className='bx bx-check-circle'></i>
 
-                    <div>
-                        <h3 className="skills__name">SQL</h3>
+                <div>
+                    <h3 className="skills__name">SQL</h3>
                     
-                    </div>
-                    </div>
+                </div>
+                </div>
 
 
                     
@@ -44,14 +44,14 @@ const Backend = () => {
 
                 <div className="skills__group">
 
-                <div className="skills__data">
+                {/* <div className="skills__data">   
                 <i className='bx bx-check-circle'></i>
 
                 <div>
-                    <h3 className="skills__name">.NET</h3>
+                    <h3 className="skills__name">.NET</h3>//ESTUDANDO ESSA TECNOLOGIA
                     
                 </div>
-                </div>
+                </div> */}
 
 
                 <div className="skills__data">

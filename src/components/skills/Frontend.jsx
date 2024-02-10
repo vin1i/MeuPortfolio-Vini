@@ -13,7 +13,7 @@ const Frontend = () => {
 
 
                     <div>
-                        <h3 className="skills__name">JavaScript</h3>
+                        <h3 className="skills__name">ReactJs</h3>
 
                     </div>
                     </div>
@@ -23,7 +23,7 @@ const Frontend = () => {
                     <i className='bx bx-check-circle'></i>
 
                     <div>
-                        <h3 className="skills__name">HTML</h3>
+                        <h3 className="skills__name">JavaScript</h3>
                         
                     </div>
                     </div>
@@ -33,7 +33,7 @@ const Frontend = () => {
                     <i className='bx bx-check-circle'></i>
 
                     <div>
-                        <h3 className="skills__name">CSS</h3>
+                        <h3 className="skills__name">TypeScript</h3>
                     
                     </div>
                     </div>
@@ -48,7 +48,7 @@ const Frontend = () => {
                 <i className='bx bx-check-circle'></i>
 
                 <div>
-                    <h3 className="skills__name">TypeScript</h3>
+                    <h3 className="skills__name">NextJs</h3>
                     
                 </div>
                 </div>
@@ -58,7 +58,7 @@ const Frontend = () => {
                 <i className='bx bx-check-circle'></i>
 
                 <div>
-                    <h3 className="skills__name">React</h3>
+                    <h3 className="skills__name">HTML</h3>
                     
                 </div>
                 </div>
@@ -68,7 +68,7 @@ const Frontend = () => {
                 <i className='bx bx-check-circle'></i>
 
                 <div>
-                    <h3 className="skills__name">Angular</h3>
+                    <h3 className="skills__name">CSS</h3>
                     
                 </div>
                 </div>

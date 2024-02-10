@@ -66,19 +66,19 @@ const Qualifications = () => {
                     <div className="qualification__data">
                         <div></div>
 
-                        <div>
+                        {/* <div>
                             <span className="qualification__rounder"></span>
                             <span className="qualification__line"></span>
                         </div>
 
                         <div>
-                            <h3 className="qualification__title">Web Development</h3>
-                            <span className="qualification__subtitle"> Instituição - Uninassau</span>
+                            <h3 className="qualification__title">....</h3>
+                            <span className="qualification__subtitle"> ....</span>
                             <div className="qualification__calender">
                                 <i className="uil uil-calendar-alt"></i>
-                                2023 - Presente
+                                ...
                             </div>
-                        </div>
+                        </div> */}
                     </div>
 
                 </div>
@@ -90,11 +90,15 @@ const Qualifications = () => {
                     <div className="qualification__data">
                         <div>
                             <h3 className="qualification__title">Projetos Pessoais</h3>
-                            <span className="qualification__subtitle"> </span>
                             <div className="qualification__calender">
                                 <i className="uil uil-calendar-alt"></i>
                                 2023 - Presente
                             </div>
+                            {/* <span className="qualification__subtitle">  </span>
+                            <div className="qualification__calender">
+                                <i className="uil uil-calendar-alt"></i>
+                                2023 - Presente
+                            </div> */}
                         </div>
 
                         <div>

@@ -18,7 +18,7 @@ return(
 
                 <div>
                     <i className="uil uil-web-grid services__icon"></i>
-                    <h3 className="services__title">Web Developer</h3>
+                    <h3 className="services__title">Frontend Developer</h3>
                 </div>
 
 
@@ -31,7 +31,7 @@ return(
                     <div className="services__modal-content">
                         <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
-                        <h3 className="services__modal-title">Web Developer</h3>
+                        <h3 className="services__modal-title">Frontend Developer</h3>
                         <p className="services__modal-description">Atuo como desenvolvedor, fornecendo serviços freelancers e construindo projetos pessoais.</p>
 
                         <ul className="services__modal-services grid">
