@@ -203,7 +203,7 @@
     }
 
     .home__img{
-        box-shadow: inset 0 0 0 6px rgba(0, 0, 0, 0.3);
+        box-shadow: inset 0 0 0 6px rgba(0, 0, 0, 0.4);
         width: 200px;
         height: 200px;
     }
@@ -232,30 +232,27 @@
     
    
 
-        .home__img{
-           display: none;
-        }
+      .home__content{
+        grid-template-columns: 0.5fr 3fr;
+        padding-top: 0.5rem;
+
+    }
+
+    .home__img{
+        order: initial;
+        justify-self: initial;
+    }
 
 
-        
-        .home__social{
-            display: flex;
-            flex-direction: initial;
-            gap: 2rem;
-        }
+    .home__img{
+        box-shadow: inset 0 0 0 6px rgba(0, 0, 0, 0.3);
+        width: 95px;
+        height: 95px;
+    }
 
-
-        .button{
-            display: grid;
-            margin-right: 1.5rem;
-        }
-
-        .home__description{
-             grid-template-columns: repeat(1, 00.1fr);
-        margin-left: -1rem;
-        font-size: 15px;
-        width: 100%;
-        }
+    .home__scroll{
+        display: none;
+    }
 
 
         
