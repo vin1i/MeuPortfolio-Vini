@@ -21,7 +21,7 @@ export const ProjectsData = [
         ],
         details: {
             title:"FlyinGames",
-            description:"Estou desenvolvendo o FlyinGames, uma plataforma de venda de jogos online. Com tecnologias como React.js e JavaScript, estou criando uma interface interativa. O projeto destaca um carrinho de compras e busca dos jogos no site. Atualmente, estou focado na finalização do frontend e na integração do backend. O projeto é um protótipo pessoal em desenvolvimento.",
+            description:"Estou desenvolvendo o FlyinGames, uma plataforma de venda de jogos online. Com as tecnologias React.js e JavaScript, estou criando uma interface interativa. O projeto destaca um carrinho de compras e busca dos jogos no site. Atualmente, estou focado na finalização do backend.",
         },
         demo:"https://flyingames.vercel.app/",
         repository:"https://github.com/vin1i/FlyinGames",
