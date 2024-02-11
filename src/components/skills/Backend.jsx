@@ -23,7 +23,7 @@ const Backend = () => {
                     <i className='bx bx-check-circle'></i> */}
 
                     <div>
-                        <h3 className="skills__name">Node.js</h3>
+                        <h3 className="skills__name">NodeJs</h3>
                         
                     </div>
                     </div>
