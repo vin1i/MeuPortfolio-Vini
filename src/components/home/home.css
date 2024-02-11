@@ -34,26 +34,18 @@
 .home__title {
     font-size: var(--big-font-size);
     margin-bottom: var(--mb-0-25);
+    
 }
 
 
 .home__subtitle {
     position: relative;
-    font-size: var(--h3-font-size);
-    padding-left: 5.4rem;
+    font-size: var(--normal-font-size);
+    padding-left: 0.2rem;
     font-weight: var(--font-normal);
     margin-bottom: var(--mb-1);
 }
 
-.home__subtitle:before{
-    content: '';
-    position: absolute;
-    width: 70px;
-    height: 1px;
-    background-color: var(--text-color);
-    left: 0;
-    top: 1rem;
-}
 
 
 .home__description {
@@ -152,11 +144,7 @@
         height: 26px;
     }
 
-    .home__subtitle{
-
-        padding-left: 3.75rem;
-        margin-bottom: var(--mb-1);
-    }
+   
    
         .home__subtitle:before{
             width: 42px;
@@ -178,21 +166,23 @@
 
 
         .home__scroll{
-            margin-left: 7.5rem;
+            display: none;
         }
     
     
   }
   
   /*For medium devices*/
-  @media screen and (max-width: 768px){
-
+  
+  @media screen and (max-width: 578px) {
     .home__content{
-        grid-template-columns: 0.5fr 3fr;
+        grid-template-columns: 0.5fr 1.6fr;
         padding-top: 3.5rem;
-
+        align-items: center; /* Alinha verticalmente ao centro */
+        justify-content: center; /* Alinha horizontalmente ao centro */
+        text-align: center;
     }
-
+    
     .home__img{
         order: initial;
         justify-self: initial;
@@ -208,15 +198,34 @@
         height: 200px;
     }
 
-    .home__scroll{
-        display: none;
-    }
-    
+   
+
   }
-  
-  
+  @media screen and (max-width: 470px){
+    .home__content{
+        grid-template-columns: 0.5fr 2fr;
+      
+    }
+  }
+  @media screen and (max-width: 430px){
+    .home__content{
+        grid-template-columns: 0.5fr 3fr;
+      
+    }
+  }
+
+
+
   /*For small devices*/
-  
+
+  @media screen and (max-width: 393px){
+    .home__content{
+        grid-template-columns: 0.5fr 4fr;
+      
+    }
+  }
+
+
   @media screen and (max-width: 350px){
     .home__img{
         width: 180px;

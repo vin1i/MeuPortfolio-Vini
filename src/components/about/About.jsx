@@ -22,7 +22,7 @@ const About = () => {
                         <Info/>
 
                         <p className="about__description"> 
-                        Hey, eu me chamo Vinicius, sou desenvolvedor frontend. Minha paixão é desenvolver websites lindos e funcionais, e além disso, explorar e aprender o que a programação tem a me proporcionar. Sempre me dediquei a tecnologia e quando descobri a programação, ela simplesmente abriu o meu mundo, o que tornou minha paixão em realidade. E quer saber ? Hoje eu amo o que eu faço graças a ela. 💙
+                        Olá, eu me chamo Vinicius, sou desenvolvedor frontend. Minha paixão é desenvolver websites lindos e funcionais, e além disso, explorar e aprender o que a programação tem a me proporcionar. Sempre me dediquei a tecnologia e quando descobri a programação, ela simplesmente abriu o meu mundo, o que tornou minha paixão em realidade. E quer saber ? Hoje eu amo o que eu faço graças a ela. 💙
                         </p>
                         <a download="" href={CV} className="button button--flex">Download CV
                         <svg
