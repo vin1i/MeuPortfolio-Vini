@@ -20,7 +20,7 @@
 }
 
 .dot__services{
-    color: var(--blue-color);
+    color: var(--main-color);
 }
 
 .services__button{
@@ -36,7 +36,7 @@
 
 .services__button:hover{
    
-    color: var(--blue-color);
+    color: var(--main-color);
 }
 
 .services__button-icon{
@@ -126,7 +126,7 @@
 
 .services__modal-icon:hover{
     cursor: pointer;
-    color: var(--blue-color);
+    color: var(--main-color);
 }
 
 .services__modal-info{

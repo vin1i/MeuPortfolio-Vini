@@ -20,7 +20,7 @@
 }
 
 .dot__footer{
-    color: var(--blue-color);
+    color: var(--main-color);
 }
 
 
@@ -29,7 +29,7 @@
 }
 
 #vini:hover{
-    color: var(--blue-color);
+    color: var(--main-color);
     font: bold;
 }
 
@@ -57,7 +57,7 @@
  
 
 .footer__social-link:hover{
-    background-color: var(--blue-color);
+    background-color: var(--main-color);
 }
 
 .footer__copy{

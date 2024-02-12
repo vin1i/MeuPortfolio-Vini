@@ -1,14 +1,10 @@
 .home__container{
-    row-gap: 7rem;
+row-gap: 7rem;
 }
-
-
-
-
 
 .home__content{
     grid-template-columns: 116px repeat(2, 1fr);
-    padding-top: 5.5rem ;
+    padding-top: 5.5rem;
     column-gap: 2rem;
     align-items: center;
 }
@@ -27,26 +23,32 @@
 }
 
 .home__social-icon:hover{
-    color:  var(--blue-color) ;
+    color: var(--main-color);
 }
 
 
-.home__title {
-    font-size: var(--big-font-size);
+.home__title{
+    font-size: 2.5rem;
     margin-bottom: var(--mb-0-25);
-    
 }
 
-
-.home__subtitle {
+.home__subtitle{
     position: relative;
     font-size: var(--normal-font-size);
-    padding-left: 0.2rem;
+    padding-left: 4rem;
     font-weight: var(--font-normal);
     margin-bottom: var(--mb-1);
 }
 
-
+.home__subtitle::before {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    background-color: var(--text-color);
+    left: 0;
+    top: 0.8rem;
+}
 
 .home__description {
     max-width: 400px;
@@ -54,50 +56,43 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
 .home__img{
-    background: url(../../assets/Profile1.jpg) ;
+    background: url(../../assets/Profile1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    box-shadow: inset 0 0 0 9px rgba(0, 0, 0, 0.4);
+    box-shadow: inset 0 0 0 9px rgba(0 0 0 / 60%);
     order: 1;
     justify-self: center;
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-    width: 360px;
-    height: 380px;
+    width: 300px;
+    height: 300px;
+    box-shadow: inset;
     animation: profile__animate 8s ease-in-out infinite 1s;
 }
+
 @keyframes profile__animate {
-    0%{
-        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    0% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%
     }
 
-    50%{
-        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    50% {
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%
     }
 
-    100%{
-        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    100% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%
     }
 }
 
-.home__scroll{
+.home__scroll {
     margin-left: 9.25rem;
 }
 
-.wheel{
-    animation: scroll 2s ease infinite;
+.wheel {
+    animation:scroll 2s ease infinite;
 }
+
 
 @keyframes scroll {
 
@@ -108,10 +103,9 @@
     30%{
         transform: translateY(3.75rem);
     }
-    
 }
 
-.home__scroll-name {
+.home__scroll-name{
     color: var(--title-color);
     font-weight: var(--font-medium);
     margin-right: var(--mb-0-25);
@@ -120,10 +114,9 @@
 
 .home__scroll-arrow{
     font-size: 1.25rem;
-    color: var(--title-color);
+    color: var(--main-color);
 
 }
-
 
 
 
@@ -134,139 +127,80 @@
 /*For large devices*/
 
 @media screen and (max-width: 992px) {
-    .home_content{
+ 
+    .home__content{
         grid-template-columns: 100px repeat(2, 1fr);
         column-gap: 1.25rem;
     }
 
-    .home__hand{
-        width: 26px;
-        height: 26px;
+
+    .home__subtitle{
+        padding-left: 3.75rem;
+        margin-bottom: var(--mb-1);
     }
 
-   
-   
-        .home__subtitle:before{
-            width: 42px;
-            top: 0.8rem;
-        }
-
-        .home__description{
-            max-width: initial;
-            margin-bottom: var(--mb-2-5);
-        }
-
-        .home__img{
-            width: 250px;
-            height: 250px;
-            box-shadow: inset 0 0 0 8px rgba(0, 0, 0, 0.4);
-        }
-
-
-
-
-        .home__scroll{
-            display: none;
-        }
-    
-    
-  }
-  
-  /*For medium devices*/
-  
-  @media screen and (max-width: 578px) {
-    .home__content{
-        grid-template-columns: 0.5fr 1.6fr;
-        padding-top: 3.5rem;
-        align-items: center; /* Alinha verticalmente ao centro */
-        justify-content: center; /* Alinha horizontalmente ao centro */
-        text-align: center;
-    }
-    
-    .home__img{
-        order: initial;
-        justify-self: initial;
+    .home__subtitle::before{
+        width: 42px;
+        top: 0.8rem;
     }
 
-    .home__data{
-        grid-column: 1/3;
+    .home__description{
+        max-width: initial;
+        margin-bottom: var(--mb-2-5);
     }
 
     .home__img{
-        box-shadow: inset 0 0 0 6px rgba(0, 0, 0, 0.4);
-        width: 200px;
-        height: 200px;
-    }
-
-   
-
-  }
-  @media screen and (max-width: 470px){
-    .home__content{
-        grid-template-columns: 0.5fr 2fr;
-      
-    }
-  }
-  @media screen and (max-width: 430px){
-    .home__content{
-        grid-template-columns: 0.5fr 3fr;
-      
-    }
-  }
-
-
-
-  /*For small devices*/
-
-  @media screen and (max-width: 393px){
-    .home__content{
-        grid-template-columns: 0.5fr 4fr;
-      
-    }
-  }
-
-
-  @media screen and (max-width: 350px){
-    .home__img{
-        width: 180px;
-        height: 180px;
-    }
-  }
-
-
-
-  
-
-@media screen and (max-width: 163px) {
-    
-   
-
-      .home__content{
-        grid-template-columns: 0.5fr 3fr;
-        padding-top: 0.5rem;
-
-    }
-
-    .home__img{
-        order: initial;
-        justify-self: initial;
-    }
-
-
-    .home__img{
-        box-shadow: inset 0 0 0 6px rgba(0, 0, 0, 0.3);
-        width: 95px;
-        height: 95px;
+        width: 250px;
+        height: 250px;
+        box-shadow: inset 0 0 0 8px rgba(0 0 0 / 60%);
     }
 
     .home__scroll{
         display: none;
     }
+  }
+  
+  /*For medium devices*/
+  @media screen and (max-width: 768px){
+   
+ 
+
+    .home__img{
+        box-shadow: inset 0 0 0 6px rgba(0 0 0 / 60%);
+        width: 200px;
+        height: 200px;
+    }
+  }
+  @media screen and (max-width: 670px){
+    .home__content{
+        grid-template-columns: 0.5fr 3fr;
+        padding-top: 3.5rem;
+    }
+   .home__img{
+        order: initial;
+        justify-self: initial;
+    }
 
 
-        
-
-      
+    .home__data{
+        grid-column: 1/3;
+    }
+    
+  
   }
 
+  
+  /*For small devices*/
+  
+  @media screen and (max-width: 350px){
+    .home__img{
+        width: 180px;
+        height: 180px;
+    }
+    .home__title{
+        font-size: var(--big-font-size);
+        margin-bottom: var(--mb-0-25);
+    }
+
+  }
   

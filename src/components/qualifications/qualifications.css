@@ -18,7 +18,7 @@
 
 
 .qualification__button:hover{
-    color: var(--blue-color);
+    color: var(--main-color);
 }
 
 
@@ -60,7 +60,7 @@
 }
 
 .dot__qualifications{
-    color: var(--blue-color);
+    color: var(--main-color);
 }
 
 .qualification__subtitle{

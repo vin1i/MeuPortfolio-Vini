@@ -40,7 +40,7 @@ const Footer = () => {
             
                 </div>
                 <span className="footer__copy" > 
-                &#169;2024 All Rights Reserved. Made with 💙 by Vini Matos
+                &#169;2024 All Rights Reserved. Made with 💜 by Vini Matos
                  </span>
             
             </div>

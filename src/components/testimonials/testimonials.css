@@ -32,11 +32,11 @@
 /*Swiper Class*/
 
 .swiper-pagination-bullet{
-    background-color: var(--blue-color)!important;
+    background-color: var(--main-color)!important;
 }
 
 .swiper-pagination-bullet-active{
-    background-color: var(--blue-color)!important;
+    background-color: var(--main-color)!important;
 }
 
 

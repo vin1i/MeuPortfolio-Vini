@@ -14,7 +14,7 @@
 }
 
 .dot__contact{
-    color: var(--blue-color);
+    color: var(--main-color);
 }
 
 .contact__info{
@@ -33,7 +33,7 @@
 
 .contact__card-icon{
     font-size: 2rem;
-    color: var(--blue-color);
+    color: var(--main-color);
     margin-bottom: var(--small-font-size);
 }
 
@@ -64,7 +64,7 @@
 }
 
 .contact__button:hover{
-    color: var(--blue-color);
+    color: var(--main-color);
 }
 
 .contact__button-icon{

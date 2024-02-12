@@ -16,7 +16,7 @@
 }
 
 .dot__projects{
-    color:  var(--blue-color) ;
+    color:  var(--main-color) ;
 }
 .icon-img{
     width: 35px;
@@ -42,7 +42,7 @@
 }
 
 .portfolio__item:hover{
-    background-color:var(--blue-color);
+    background-color:var(--main-color);
     color: var(--container-color);
 }
 
@@ -72,7 +72,7 @@
 }
 
 .portfolio__button-demo{
-    color: var(--blue-color);
+    color: var(--main-color);
     font-size: var(--small-font-size);
     display: flex;
     align-items: center;
@@ -100,7 +100,7 @@
  
     /*styles button:hover*/
 .portfolio__button:hover{
-    color: var(--blue-color);
+    color: var(--main-color);
 }
 /*styles button-normal*/
 .portfolio__button-icon{

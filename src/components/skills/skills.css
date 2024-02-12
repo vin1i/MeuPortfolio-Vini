@@ -21,7 +21,7 @@
 }
 
 .dot__skills{
-    color:  var(--blue-color) ;
+    color:  var(--main-color) ;
 }
 
 .skills__box{
@@ -50,7 +50,7 @@
 }
 
 .skills .bx-check-circle:hover{
-    color:  var(--blue-color) ;
+    color:  var(--main-color) ;
 }
 
 
