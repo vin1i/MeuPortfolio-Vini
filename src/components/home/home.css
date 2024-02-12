@@ -65,10 +65,10 @@ row-gap: 7rem;
     order: 1;
     justify-self: center;
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-    width: 300px;
-    height: 300px;
+    width: 360px;
+    height: 380px;
     box-shadow: inset;
-    animation: profile__animate 8s ease-in-out infinite 1s;
+    animation: profile__animate 7s ease-in-out infinite 1s;
 }
 
 @keyframes profile__animate {
@@ -199,7 +199,7 @@ row-gap: 7rem;
     }
     .home__title{
         font-size: var(--big-font-size);
-        margin-bottom: var(--mb-0-25);
+        
     }
 
   }
