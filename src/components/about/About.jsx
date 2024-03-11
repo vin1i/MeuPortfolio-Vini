@@ -19,12 +19,18 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            Olá, eu me chamo Vinicius, sou desenvolvedor frontend. Minha paixão
-            é desenvolver websites lindos e funcionais, e além disso, explorar e
-            aprender o que a programação tem a me proporcionar. Sempre me
-            dediquei a tecnologia e quando descobri a programação, ela
-            simplesmente abriu o meu mundo, o que tornou minha paixão em
-            realidade. E quer saber ? Hoje eu amo o que eu faço graças a ela. 💜
+            Olá, meu nome é Vinicius, sou um desenvolvedor frontend dedicado em
+            criar websites esteticamente atraentes e altamente funcionais.
+            Atualmente, estou cursando Análise e Desenvolvimento de Sistemas,
+            buscando me especializar no desenvolvimento frontend, mas também
+            explorando o desenvolvimento backend. Sempre me dediquei a
+            tecnologia e quando descobri a programação, ela abriu meu mundo, e
+            desde então, tenho dedicado meu tempo aos estudos e aprimoramento no
+            desenvolvimento. A programação abriu novas perspectivas em minha
+            vida, ampliando minha visão e proporcionando grandes experiências.
+            Hoje, posso afirmar com alegria que encontrei minha vocação. Cada
+            linha de código que escrevo é uma expressão do meu comprometimento e
+            amor pelo que faço. 💜
           </p>
           <a download="" href={CV} className="button button--flex">
             Download CV
