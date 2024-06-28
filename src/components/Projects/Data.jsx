@@ -70,7 +70,7 @@ export const ProjectsData = [
   {
     id: 4,
     image: Image4,
-    title: "Vidros e Esquadrias Borges",
+    title: "Vidros e Esquadrias",
     imageIcon: [
       { url: imageIcon1 },
       { url: imageIcon2 },
