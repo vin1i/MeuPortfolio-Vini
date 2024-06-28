@@ -3,12 +3,11 @@ import React from "react";
 const Data = () => {
   return (
     <div className="home__data">
-      <h1 className="home__title">Desenvolvedor Frontend </h1>
+      <h1 className="home__title">Desenvolvedor Full-Stack</h1>
 
       <h3 className="home__subtitle">Hey, eu sou o Vinicius👋🏻</h3>
       <p className="home__description">
-        Eu sou Desenvolvedor Frontend, apaixonado e dedicado aos meus estudos e
-        trabalho.{" "}
+        Eu sou Desenvolvedor Full-Stack, dedicado aos meus estudos e trabalho.{" "}
       </p>
 
       <a href="#contact" className="button button--flex">

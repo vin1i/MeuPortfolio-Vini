@@ -1,72 +1,115 @@
 import Image1 from "../../assets/ScreensFlyinGames/Destaques.png";
-//import Image2 from "../../assets/ScreensFlyinGames/Novidades.png";
-//import Image3 from "../../assets/ScreensFlyinGames/Navbar.png";
-import imageIcon1 from '../../assets/icons-tecnologias/react-original.svg';
-import imageIcon2 from '../../assets/icons-tecnologias/javascript-plain.jpg';
-import imageIcon3 from '../../assets/icons-tecnologias/html5-original.svg';
-import imageIcon4 from '../../assets/icons-tecnologias/css3-original.svg';
+import Image2 from "../../assets/ScreensSites/FcE.png";
+import Image3 from "../../assets/ScreensSites/MultasDoutores.png";
+import Image4 from "../../assets/ScreensSites/VidrosEsquadrias.png";
+import imageIcon1 from "../../assets/icons-tecnologias/react-original.svg";
+import imageIcon2 from "../../assets/icons-tecnologias/javascript-plain.jpg";
+import imageIcon3 from "../../assets/icons-tecnologias/html5-original.svg";
+import imageIcon4 from "../../assets/icons-tecnologias/css3-original.svg";
+import imageIcon5 from "../../assets/icons-tecnologias/tailwindcss-original.svg";
 //import imageIcon5 from '../../assets/icons-tecnologias/csharp-original.svg';
 
-
 export const ProjectsData = [
-    {
-        id: 1, 
-        image: Image1,
-        title: "FlyinGames",
-        imageIcon: [
-            { url: imageIcon1 },
-            { url: imageIcon2 },
-            { url: imageIcon3 },
-            { url: imageIcon4 },
-        ],
-        details: {
-            title:"FlyinGames",
-            description:"FlyinGames é uma plataforma de venda de jogos online, um projeto que desenvolvi com as tecnologias ReactJs e JavaScript. O projeto destaca um carrinho de compras e busca dos jogos no site. Atualmente, estou focado na finalização do backend.",
-        },
-        demo:"https://flyingames.vercel.app/",
-        repository:"https://github.com/vin1i/FlyinGames",
+  {
+    id: 1,
+    image: Image1,
+    title: "FlyinGames",
+    imageIcon: [
+      { url: imageIcon1 },
+      { url: imageIcon2 },
+      { url: imageIcon3 },
+      { url: imageIcon4 },
+    ],
+    details: {
+      title: "FlyinGames",
+      description:
+        "FlyinGames é uma plataforma de venda de jogos online, um projeto que desenvolvi com as tecnologias ReactJs e JavaScript. O projeto destaca um carrinho de compras e busca dos jogos no site. Atualmente, estou focado na finalização do backend.",
     },
+    demo: "https://flyingames.vercel.app/",
+    repository: "https://github.com/vin1i/FlyinGames",
+  },
 
- /*------------------DAQUI PARA BAIXO, COMENTADO POIS, POR ENQUANTO TENHO APENAS UM PROJETO, EM BREVE RETIRO O COMENTÁRIO PARA IMPLEMENTAR MEUSFUTUROS PROJETOS--------------------------*/
+  {
+    id: 2,
+    image: Image2,
+    title: "FcE Elétrica",
+    imageIcon: [
+      { url: imageIcon1 },
+      { url: imageIcon2 },
+      { url: imageIcon3 },
+      { url: imageIcon4 },
+    ],
 
-
-    /*{
-        id: 2, 
-        image: Image2,
-        title: "Em breve",
-        imageIcon: [
-            { url: imageIcon1},
-            { url: imageIcon2},
-            {url: imageIcon3},
-        ],
-
-        details: {
-            title:"FlyinGames",
-            description:"Estou desenvolvendo o FlyinGames, uma plataforma de venda de jogos online. Com tecnologias como React.js e JavaScript, estou criando uma interface interativa. O projeto destaca um carrinho de compras e busca dos jogos no site. Atualmente, estou focado na finalização do frontend e na integração do backend. O projeto é um protótipo pessoal em desenvolvimento.",
-        },
-        demo:"https://www.youtube.com/",
-        repository:"",
+    details: {
+      title: "FcE Elétrica",
+      description:
+        "Este site foi desenvolvido por mim durante meu estágio na empresa Inovação Marketing. Utilizando React para a criação de interfaces dinâmicas e responsivas, Vite para um ambiente de desenvolvimento mais rápido e eficiente, e JavaScript para funcionalidades interativas.",
     },
-    {
-        id: 3, 
-        image: Image3,
-        title: "Em breve",
-        imageIcon: [
-            { url: imageIcon1},
-            { url: imageIcon2},
-            {url: imageIcon3},
-        ],
-        details: {
-            title:"FlyinGames",
-            description:"Estou desenvolvendo o FlyinGames, uma plataforma de venda de jogos online. Com tecnologias como React.js e JavaScript, estou criando uma interface interativa. O projeto destaca um carrinho de compras e busca dos jogos no site. Atualmente, estou focado na finalização do frontend e na integração do backend. O projeto é um protótipo pessoal em desenvolvimento.",
-        },
-        demo:"https://www.youtube.com/",
-        repository:"",
-    },*/
+    demo: "https://www.fecservicoeletricista.com.br/",
+    repository: "",
+  },
+  {
+    id: 3,
+    image: Image3,
+    title: "FcE Elétrica",
+    imageIcon: [
+      { url: imageIcon1 },
+      { url: imageIcon2 },
+      { url: imageIcon3 },
+      { url: imageIcon4 },
+    ],
+
+    details: {
+      title: "Multas e Doutores",
+      description:
+        "Este site foi desenvolvido por mim durante meu estágio na empresa Inovação Marketing. Utilizando React para a criação de interfaces dinâmicas e responsivas, Vite para um ambiente de desenvolvimento mais rápido e eficiente, e JavaScript para funcionalidades interativas.",
+    },
+    demo: "https://multasedoutores.com.br/",
+    repository: "",
+  },
+  {
+    id: 4,
+    image: Image4,
+    title: "Vidros e Esquadrias Borges",
+    imageIcon: [
+      { url: imageIcon1 },
+      { url: imageIcon2 },
+
+      { url: imageIcon4 },
+      { url: imageIcon5 },
+    ],
+
+    details: {
+      title: "Vidros e Esquadrias Borges",
+      description:
+        "Este site foi desenvolvido por mim durante meu estágio na empresa Inovação Marketing. Utilizando React para a criação de interfaces dinâmicas e responsivas, Vite para um ambiente de desenvolvimento mais rápido e eficiente, e JavaScript para funcionalidades interativas.",
+    },
+    demo: "https://vidrosesquadriasborges.com.br/",
+    repository: "",
+  },
+  //   {
+  //     id: 5,
+  //     image: Image5,
+  //     title: "FcE Elétrica",
+  //     imageIcon: [
+  //       { url: imageIcon1 },
+  //       { url: imageIcon2 },
+  //       { url: imageIcon3 },
+  //       { url: imageIcon4 },
+  //     ],
+
+  //     details: {
+  //       title: "Multas e Doutores",
+  //       description:
+  //         "Este site foi desenvolvido por mim durante meu estágio na empresa Inovação Marketing. Utilizando React para a criação de interfaces dinâmicas e responsivas, Vite para um ambiente de desenvolvimento mais rápido e eficiente, e JavaScript para funcionalidades interativas.",
+  //     },
+  //     demo: "https://vidrosesquadriasborges.com.br/",
+  //     repository: "",
+  //   },
 ];
 
 export const projectsNav = [
-    /*{
+  /*{
         name: 'All',
     },
     
@@ -74,9 +117,7 @@ export const projectsNav = [
         name: 'Full-Stack',
     },*/
 
-    {
-        name: 'Frontend',
-    },
-
-
+  {
+    name: "Frontend",
+  },
 ];

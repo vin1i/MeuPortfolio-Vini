@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 // import AboutIMG from "../../assets/Profile2.jpg";
-import CV from "../../assets/CV/Vinicius Desenvolvedor Front-End.pdf";
+import CV from "../../assets/CV/CV Desenvolvedor FullStack.pdf";
 import Info from "./Info";
 
 const About = () => {
@@ -19,18 +19,15 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            Olá, meu nome é Vinicius, sou um desenvolvedor frontend dedicado em
+            Olá, meu nome é Vinicius, sou um desenvolvedor Full Stack dedicado a
             criar websites esteticamente atraentes e altamente funcionais.
             Atualmente, estou cursando Análise e Desenvolvimento de Sistemas,
-            buscando me especializar no desenvolvimento frontend, mas também
-            explorando o desenvolvimento backend. Sempre me dediquei a
-            tecnologia e quando descobri a programação, ela abriu meu mundo, e
-            desde então, tenho dedicado meu tempo aos estudos e aprimoramento no
-            desenvolvimento. A programação abriu novas perspectivas em minha
-            vida, ampliando minha visão e proporcionando grandes experiências.
-            Hoje, posso afirmar com alegria que encontrei minha vocação. Cada
-            linha de código que escrevo é uma expressão do meu comprometimento e
-            amor pelo que faço. 💜
+            buscando me especializar tanto no desenvolvimento frontend quanto no
+            backend. Tenho experiência na criação de websites completos, desde a
+            concepção inicial e design das interfaces até a implementação de
+            funcionalidades no backend. Cada linha de código que escrevo é uma
+            expressão do meu comprometimento com a tecnologia e com a criação de
+            soluções eficazes e inovadoras. 💜
           </p>
           <a download="" href={CV} className="button button--flex">
             Download CV
