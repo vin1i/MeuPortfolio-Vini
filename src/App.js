@@ -10,27 +10,28 @@ import Qualifications from './components/qualifications/Qualifications.jsx'
 import Contact from './components/contact/Contact.jsx';
 import Footer from './components/footer/Footer.jsx';
 import ScrollUp from './components/scrollup/ScrollUp.jsx';
-import Projects from './components/Projects/Projects.jsx';
+
+import Work from './components/Projects/Work.jsx';
 
 
 const App = () => {
   return (
     <>
-    <Header/>
+      <Header />
 
-    <main className='main'>
-      <Home/>
-      <About/>
-      <Skills/>
-      <Services/>
-      <Qualifications/>
-      <Projects/>
-      <Contact/>
+      <main className='main'>
+        <Home />
+        <About />
+        <Skills />
+        <Services />
+        <Qualifications />
+        <Work />
+        <Contact />
 
-    
-    </main>
-    <Footer/>
-      <ScrollUp/>
+
+      </main>
+      <Footer />
+      <ScrollUp />
     </>
   );
 };
