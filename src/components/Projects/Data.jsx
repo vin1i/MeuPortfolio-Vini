@@ -4,6 +4,7 @@ import Image3 from "../../assets/ScreensSites/MultasDoutores.png";
 import Image4 from "../../assets/ScreensSites/VidrosEsquadrias.png";
 import Image5 from "../../assets/ScreensSites/ClinicaEsoterica.png";
 import Image6 from "../../assets/ScreensSites/ConFrio.png";
+import Image7 from "../../assets/ScreensSites/MwConsultoria.png";
 // import imageIcon1 from "../../assets/icons-tecnologias/react-original.svg";
 // import imageIcon2 from "../../assets/icons-tecnologias/javascript-plain.jpg";
 // import imageIcon3 from "../../assets/icons-tecnologias/html5-original.svg";
@@ -81,6 +82,18 @@ export const ProjectsData = [
       description:
         "Este site foi desenvolvido por mim durante meu estágio na empresa Inovação Marketing. Utilizando React para a criação de interfaces dinâmicas e responsivas, Vite para um ambiente de desenvolvimento mais rápido e eficiente, e JavaScript para funcionalidades interativas.",
       repository: "",
+    },
+  },
+  {
+    id: 7,
+    image: Image7,
+    title: "MwConsultoria",
+    category: "Full-Stack",
+    demo: "https://www.mwconsultoriaimobiliaria.com.br",
+    details: {
+      description:
+        "Desenvolvi um site institucional para uma cliente que atua no ramo imobiliário. O site conta com múltiplas páginas, incluindo uma dedicada à exibição de imóveis à venda. Ele também permite que a cliente cadastre, edite e exclua seus imóveis de forma prática e rápida. Atualmente, estou implementando uma nova funcionalidade no site: o cadastro de usuários, permitindo que os clientes se registrem, fortalecendo ainda mais a fidelização.",
+      repository: "https://github.com/CassioBubanz/mw_consultoria",
     },
   },
 ];
