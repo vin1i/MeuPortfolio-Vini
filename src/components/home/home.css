@@ -65,8 +65,8 @@ row-gap: 7rem;
     order: 1;
     justify-self: center;
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-    width: 310px;
-    height: 390px;
+    width: 360px;
+    height: 380px;
     box-shadow: inset;
     animation: profile__animate 7s ease-in-out infinite 1s;
 }
