@@ -19,7 +19,7 @@ const Backend = () => {
             <i className="bx bx-check-circle"></i>
 
             <div>
-              <h3 className="skills__name">C#</h3>
+              <h3 className="skills__name">NestJs</h3>
             </div>
           </div>
 
@@ -37,7 +37,15 @@ const Backend = () => {
             <i className="bx bx-check-circle"></i>
 
             <div>
-              <h3 className="skills__name">TypeScript</h3>
+              <h3 className="skills__name">FireBase</h3>
+            </div>
+          </div>
+
+          <div className="skills__data">
+            <i className="bx bx-check-circle"></i>
+
+            <div>
+              <h3 className="skills__name">C#</h3>
             </div>
           </div>
 
@@ -46,14 +54,6 @@ const Backend = () => {
 
             <div>
               <h3 className="skills__name">.NET</h3>
-            </div>
-          </div>
-
-          <div className="skills__data">
-            <i className="bx bx-check-circle"></i>
-
-            <div>
-              <h3 className="skills__name">SQL</h3>
             </div>
           </div>
         </div>

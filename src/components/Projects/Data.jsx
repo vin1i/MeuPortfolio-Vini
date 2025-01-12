@@ -92,7 +92,7 @@ export const ProjectsData = [
     demo: "https://www.mwconsultoriaimobiliaria.com.br",
     details: {
       description:
-        "Desenvolvi um site institucional para uma cliente que atua no ramo imobiliário. O site conta com múltiplas páginas, incluindo uma dedicada à exibição de imóveis à venda. Ele também permite que a cliente cadastre, edite e exclua seus imóveis de forma prática e rápida. Atualmente, estou implementando uma nova funcionalidade no site: o cadastro de usuários, permitindo que os clientes se registrem, fortalecendo ainda mais a fidelização.",
+        "Desenvolvi um site institucional para uma cliente que atua no ramo imobiliário. O site conta com múltiplas páginas, incluindo uma dedicada à exibição de imóveis à venda. Ele também permite que a cliente cadastre, edite e exclua seus imóveis de forma prática e rápida. Atualmente, estou implementando uma nova funcionalidade no site, que inclui o cadastro de usuários.",
       repository: "https://github.com/CassioBubanz/mw_consultoria",
     },
   },

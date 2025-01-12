@@ -131,7 +131,7 @@ const Qualifications = () => {
 
               <div>
                 <h3 className="qualification__title">
-                  Estágio - Desenvolvedor Frontend
+                  Desenvolvedor Frontend
                 </h3>
                 <span className="qualification__subtitle">
                   {" "}

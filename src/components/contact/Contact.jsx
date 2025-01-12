@@ -35,10 +35,10 @@ const Contact = () => {
               <h3 className="contact__card-title">Email</h3>
 
               <span className="contact__card-data">
-                marcosvini342@outlook.com
+                marcosvinidev342@gmail.com
               </span>
               <a
-                href="mailto:marcosvinijobs342@outlook.com"
+                href="mailto:  marcosvinidev342@gmail.com"
                 target="_blank"
                 rel="noreferrer"
                 className="contact__button"
